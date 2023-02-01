@@ -1,0 +1,592 @@
+@media (max-width: 575.9px) {
+    h1{font-size: 19px;}
+    h2{font-size: 18px;}
+    h3{font-size: 17px;}
+    h4{font-size: 16px;}
+    h5{font-size: 15px;}
+    h6{font-size: 14px;}
+    p{font-size: 12px;}
+    button{font-size: 11px;}
+     /* start header  */
+    header .navbar .logo-company .logo {
+        font-size: 18px;
+    }
+    header .navbar .logo-company span {
+        font-size: 18px;
+    }
+    header .navbar .navbar-toggler {
+        font-size: 15px;
+    }
+    header .navbar .collapse .nav-item:last-of-type{
+        display: none;
+    }
+    nav .collapse .navbar-nav .nav-item.active .nav-link {
+        border-bottom: unset;
+    }
+    /* end header  */
+    /* start home section */
+    .sec_home_slider .owl-carousel .item .slider-box p {
+        width: 90%;
+    }
+    /* end home section  */
+    /* start cards */
+    .cards .card {
+        background: linear-gradient(to bottom ,#EDEADE,	#f9f6ee2a);
+    }
+    .cards .card .card-body {
+        padding: 30px 10px;
+    }
+    .cards .card .card-body span {
+        padding: 10px 5px 5px 5px;
+    }
+    .cards .card .card-body span .icon-card {
+        font-size: 25px;
+    }
+    /* end cards  */
+    /* start portfolio */
+    .portfolio {
+        padding-top: 30px;
+    }
+    .portfolio .port-header h2 {
+        margin-bottom: 10px;
+    }
+    .portfolio .portfolio-menu {
+        margin: 10px 0;
+    }
+    .portfolio .portfolio-menu li {
+        display: block;
+        font-size: 12px;
+        position: relative;
+    }
+    .portfolio .portfolio-menu li.active {
+        border: unset;
+    }
+    .portfolio .portfolio-menu li.active::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 2px;
+        left: 25%;
+        bottom: 0;
+        background-color: var(--first-color);
+    }
+    .portfolio .load_more a {
+    font-size: 12px;
+    }
+    .portfolio .load_more a .icon {
+    font-size: 12px;
+    }
+    /* end portfolio */
+
+    /* start break */
+    .break .box-text-break {
+        padding: 20px 0;
+    }
+    .break .box-text-break p {
+        font-size: 12px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .break .box-text-break button {
+        font-size: 11px;
+    }
+    /* end break */
+    /* start news */
+    .news {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .news .news-header h2 {
+        margin-bottom: 10px;
+    }
+    .news .news-header p {
+        width: 100%;
+    }
+    .news a .card {
+        margin-bottom: 20px;
+    }
+    /* end news  */
+    /* start team part one */
+    .our-team-p1 {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .our-team-p1 .team1-header {
+        margin-bottom: 20px;
+    }
+    .our-team-p1 .team1-header h2 {
+        margin-bottom: 10px;
+    }
+    .our-team-p1 .team1-header p {
+        width: 100%;
+    }
+    .our-team-p1 .card .box-image-card .box-text-card {
+        display: none;
+    }
+    /* end team part one */
+    /* start skills */
+    .skills {
+        padding: 20px 0;
+    }
+    .skills .skills-header {
+        margin-bottom: 10px;
+    }
+    .skills .skills-header h2 {
+        margin-bottom: 10px;
+    }
+    .skills .skill .progress span {
+        font-size: 11px;
+    }
+    /* end skills */
+    /* start statistics */
+    .statistics {
+        padding: 20px 0;
+    }
+    .statistics .container .row .col-12 {
+        text-align: center;
+    }
+    .statistics .stat-icon {
+        padding: 5px;
+    }
+    .statistics .stat-icon .icon {
+        font-size: 20px;
+    }
+    .statistics .stat-text h6 {
+        font-size: 16px;
+    }
+    .statistics .stat-text p {
+        font-size: 12px;
+    }
+    /* end statistics */
+    /* start team part two */
+    .our-team-p2 {
+        padding: 20px;
+    }
+    .our-team-p2 .team2-header h2 {
+        margin-bottom: 10px;
+    }
+    .our-team-p2 .team2-header p {
+        width: 100%;
+    }
+    /* end team part two */
+    /* start customers */
+    .customers {
+        padding-top: 30px;
+    }
+    .customers .custom-body {
+        padding: 20px;
+    }
+    .customers .custom-header {
+        margin-bottom: 20px;
+    }
+    .customers .custom-header h2 {
+        margin-bottom: 10px;
+    }
+    .customers .custom-header p {
+        width: 100%;
+    }
+    .customers .custom-logo-company {
+        width: 100%;
+    }
+    .customers .custom-logo-company li {
+        width: 40px;
+        height: 40px;
+    }
+    /* end customers */
+    /* start about */
+    .about {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    /* end about */
+    /* start map */
+    .map {
+        display: none;
+    }
+    /* end map */
+    /* start footer  */
+    footer .nav p {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    footer .nav ul {
+        display: none;
+    }
+    /* end footer */
+
+
+}
+@media (min-width: 576px) and (max-width: 767.9px){ 
+    h1{font-size: 20px;}
+    h2{font-size: 19px;}
+    h3{font-size: 18px;}
+    h4{font-size: 17px;}
+    h5{font-size: 16px;}
+    h6{font-size: 15px;}
+    p{font-size: 13px;}
+    button{font-size: 12px;}
+
+    /* start header  */
+    header .navbar .collapse .nav-item:last-of-type{
+        display: none;
+    }
+    nav .collapse .navbar-nav .nav-item.active .nav-link {
+        border-bottom: unset;
+    }
+    /* end header  */
+    /* start cards */
+    .cards .card .card-body p {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cards .card {
+        background: linear-gradient(to bottom ,#EDEADE,	#f9f6ee2a);
+    }
+    /* end cards */
+    /* start portfolio */
+    .portfolio .portfolio-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .portfolio .portfolio-menu li {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .portfolio .load_more a {
+        font-size: 13px;
+    }
+    .portfolio .load_more a .icon {
+    font-size: 13px;
+    }
+    /* end portfolio */
+    /* start break */
+    .break .box-text-break {
+        padding: 30px 0;
+    }
+    .break .box-text-break p {
+        width: 80%;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+    .break .box-text-break button {
+        font-size: 12px;
+    }
+    /* end break */
+    /* start news */
+    .news {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .news a .card {
+        margin-bottom: 20px;
+    }
+    /* end news */
+    /* start team part one */
+    .our-team-p1 {
+        padding: 30px;
+        padding-bottom: 0;
+    }
+    .our-team-p1 .team1-header h2 {
+        margin-bottom: 20px;
+    }
+    .our-team-p1 .team1-header {
+        margin-bottom: 20px;
+    }
+    .our-team-p1 .card .box-image-card .box-text-card {
+        display: none;
+    }
+    /* end team part one */
+
+    /* start skills */
+    .skills {
+        padding: 30px 0;
+    }
+    .skills .skills-header h2 {
+        margin-bottom: 20px;
+    }
+    .skills .skills-header {
+        margin-bottom: 0;
+    }
+    .skills .skill .progress span {
+        font-size: 12px;
+    }
+    /* end skills */
+    /* start statistics */
+    .statistics {
+        padding: 30px 0;
+    }
+    .statistics .container .row .col-12 {
+        text-align: center;
+    }
+    /* end statistics */
+    /* start team part two */
+    .our-team-p2 {
+        padding: 30px;
+    }
+    /* end team part two */
+    /* start customers */
+    .customers {
+        padding-top: 30px;
+    }
+    .customers .custom-body {
+        padding: 30px 0;
+    }
+    .customers .custom-header {
+        margin-bottom: 20px;
+    }
+    .customers .custom-header h2 {
+        margin-bottom: 20px;
+    }
+    .customers .custom-logo-company li {
+        width: 50px;
+        height: 50px;
+    }
+    /* end customers */
+    /* start map  */
+    .map .box-map {
+        margin-left: 50px;
+        width: 300px;
+    }
+    .map .box-map h6 {
+        font-size: 14px;
+    }
+    .map .box-map .information span {
+        font-size: 14px;
+    }
+    /* end map  */
+    /* start footer  */
+    footer .nav p {
+        font-size: 9px;
+        padding-top: 5px;
+    }
+    footer .nav ul li a {
+        font-size: 9px;
+        padding: 3px;
+    }
+    /* end footer */
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.9px){
+    /* start header (navbar) */
+    header .navbar .collapse .nav-item:last-of-type{
+        display: none;
+    }
+    nav .collapse .navbar-nav .nav-item.active .nav-link {
+        border-bottom: unset;
+    }
+    .sec_home_slider  .owl-carousel .item .slider-box h3 {
+        font-size: 20px;
+    }
+    .sec_home_slider  .owl-carousel .item .slider-box h1 {
+        font-size: 22px;
+    }
+    .sec_home_slider  .owl-carousel .item .slider-box p {
+        font-size: 14px;
+    }
+    .sec_home_slider  .owl-carousel .item .slider-box button {
+        font-size: 14px;
+    }
+    /* end header (navbar) */
+    /* start cards  */
+    .cards .card {
+        background: linear-gradient(to bottom ,#EDEADE,	#f9f6ee2a);
+    }
+    .cards .card .card-body h4 {
+        font-size: 19px;
+    }
+    .cards .card .card-body p {
+        font-size: 14px;
+    }
+    .cards .card .card-body a{
+        font-size: 12px;
+    }
+    /* end cards  */
+    /* start portfolio  */
+    .portfolio .port-header h2 {
+        font-size: 21px;
+    }
+    .portfolio .port-header p {
+        font-size: 14px;
+    }
+    .portfolio .portfolio-menu li {
+        font-size: 14px;
+    }
+    .portfolio .load_more a {
+    font-size: 14px;
+    }
+    .portfolio .load_more a .icon {
+    font-size: 14px;
+    }
+    /* end portfolio */
+    /* start break  */
+    .break .box-text-break p {
+        font-size: 14px;
+        line-height: 2;
+    }
+    .break .box-text-break button {
+        font-size: 12px;
+    }
+    /* end break  */
+    /* start news  */
+    .news {
+        padding-bottom: 20px;
+    }
+    .news .news-header h2 {
+        font-size: 21px;
+    }
+    .news .news-header p {
+        font-size: 14px;
+    }
+    .news .card {
+        margin-bottom: 30px;
+    }
+    .news .card .card-body p {
+        font-size: 14px;
+    }
+    /* end news */
+    /* start team part one  */
+    .our-team-p1 {
+        padding: 40px 0 20px 0;
+    }
+    .our-team-p1 .team1-header h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .our-team-p1 .team1-header p {
+        font-size: 14px;
+    }
+    .our-team-p1 .card .box-image-card .box-text-card {
+        display: none;
+    }
+    /* end team part one  */
+
+    /* start skills  */
+    .skills {
+        padding-top: 40px;
+    }
+    .skills .skills-header {
+        margin-bottom: 20px;
+    }
+    .skills .skills-header h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .skills .skills-header p {
+        font-size: 14px;
+        line-height: 2;
+    }
+    .skills .skill .progress span {
+        font-size: 13px;
+    }
+    /* end skills  */
+
+    /* start statistics */
+    .statistics {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .statistics .stat-icon .icon {
+        font-size: 25px;
+    }
+    .statistics .stat-text h6 {
+        font-size: 25px;
+    }
+    .statistics .stat-text p {
+        font-size: 12px;
+    }
+    .statistics .col-12 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* end statistics */
+    /* start team part two */
+    .our-team-p2 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .our-team-p2 .team2-header {
+        margin-bottom: 20px;
+    }
+    .our-team-p2 .team2-header h2 {
+        font-size: 21px;
+    }
+    .our-team-p2 p {
+        font-size: 14px;
+    }
+    .our-team-p2 .icon-card-team-2 {
+        margin-bottom: 15px;
+    }
+    .our-team-p2 .employee .tem2-text h6 {
+        font-size: 17px;
+    }
+    .our-team-p2 .employee .tem2-text p {
+        font-size: 13px;
+    }
+    /* end team part two */
+    /* start customers */
+    .custom-body {
+        padding: 40px 0;
+    }
+    .customers {
+        padding-top: 40px;
+    }
+    .customers .custom-header h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .customers .custom-header p {
+        font-size: 14px;
+    }
+    .customers .custom-logo-company li {
+        width: 60px;
+        height: 60px;
+    }
+    /* end customers */
+    /* start about */
+    .about {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .about .about-first-col, 
+    .about .about-second-col {
+        margin-bottom: 50px;
+    }
+    .about .about-first-col h6, 
+    .about .about-second-col h6,
+    .about .about-third-col h6 {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .about .about-first-col p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .about .about-second-col p {
+        font-size: 14px;
+    }
+    .about .about-third-col .text-box p {
+        font-size: 14px;
+    }
+    /* end about */
+    /* start map */
+    .map .box-map h6 {
+        font-size: 17px;
+    }
+    .map .box-map .information .icon {
+        font-size: 15px;
+    }
+    .map .box-map .information span:last-of-type {
+        font-size: 14px;
+    }
+    /* end map */
+    /* start footer */
+    footer .nav p {
+        font-size: 12px;
+    }
+    footer .nav ul li a {
+        font-size: 12px;
+        padding: 7px;
+    }
+    /* end footer */
+}
